@@ -35,8 +35,12 @@ class Rectangular:
 
     def get_info(self):
         return f"Height -> {self.height}, widht -> {self.width}, Area-> {self.get_area()}, Perimetr-> {self.get_perimetr()}"
-    
-    
 
-
-
+rec = Rectangular(12, 24)  
+# print(rec.get_height())
+# print(rec.set_height(6))
+# print(rec.set_width(12))
+# print(rec.get_width())
+# print(rec.get_perimetr())
+# print(rec.get_area())
+# print(rec.get_info())
